@@ -1,4 +1,4 @@
-This file serves as a ReadMe for this code
+This file serves as a ReadMe for this code. USE AT YOUR OWN RISK. THIS CODE WAS WRITTEN BY AN AMATEUR AND CONTAINS BUGS/INEFFICIENCIES. DO NOT USE WITHOUT MODIFYING FOR YOUR OWN PURPOSES. I AM NOT RESPONSIBLE FOR DAMAGE OR EXCESS POWER CONSUMPTION FOR YOUR USE/MISUSE OF THIS CODE.
 
 The purpose of the code is to read excess solar usage from an Emporia-monitored power meter and then tell a Tesla to start charging, set a power draw, adjust up/down the power draw, and stop charging depending on available power conditions. The whole goal is to avoid grid draw to the extent possible while using solar to charge the car, even if there are times where it doesn’t use as much solar power as it can.
 
