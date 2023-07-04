@@ -40,3 +40,4 @@ Stopping the script from waking the car every 2 minutes once the car has reached
 Better scheduling in general.
 GUI. 
 
+Find the code useful? Consider sending me a tip of $5 – or whatever you feel appropriate – via PayPal to a.leonard.tech@gmail.com, or via Venmo at @Andrew-Leonard-6 (last phone digits 1839). Thanks!
