@@ -225,6 +225,10 @@ def func():
 
     print('--- Iteration done at' , datetime.datetime.now() , '. ---')
 
+    if charging_state == 'Complete':
+        print('Since charging is complete, the program will exit until relaunched.')
+        exit()
+
 schedule.every().day.at('08:00').until('17:30').do(func)
 schedule.every(2).minutes.do(func)
 
