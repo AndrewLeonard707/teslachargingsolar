@@ -156,9 +156,9 @@ def func():
         if available_power == 0:
             print('Emporia output error? Doing nothing.')
 
-        if -0.6 < available_power < 0:
+        if -0.3 < available_power < 0:
             vehicles[0].command('CHARGING_AMPS', charging_amps=(charge_current_request - 3))
-            print('Excess solar is low, e.g., -0.6kW and 0kW, lowering charging amps by 3A. Will ramp up every 2 minutes if able.')
+            print('Excess solar is low, e.g., -0.3kW and 0kW, lowering charging amps by 3A. Will ramp up every 2 minutes if able.')
 
         if 0 < available_power < 2:
             vehicles[0].command('CHARGING_AMPS', charging_amps=(charge_current_request - 10))
