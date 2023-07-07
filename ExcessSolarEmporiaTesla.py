@@ -226,7 +226,8 @@ def func():
     print('--- Iteration done at' , datetime.datetime.now() , '. ---')
 
     if charging_state == 'Complete':
-        print('Since charging is complete, the program will exit until relaunched.')
+        print('Since charging is complete, the program will exit until relaunched. Setting charge amps to 40A for next time.')
+        vehicles[0].command('CHARGING_AMPS', charging_amps='40')
         exit()
 
 schedule.every().day.at('08:00').until('17:30').do(func)
